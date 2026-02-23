@@ -11,12 +11,12 @@ const port = process.env.PORT || 3000;
 // Replace these with your actual credentials
 // ==========================================
 // You need to get your Google Client ID from Google Cloud Console.
-const GOOGLE_CLIENT_ID = 'YOUR_GOOGLE_CLIENT_ID.apps.googleusercontent.com';
+const GOOGLE_CLIENT_ID = '1018669041382-kj406i6fcr5gr4mn862uk3r5f8a5nj5h.apps.googleusercontent.com';
 
 // Update EMAIL_USER and EMAIL_PASS if using Gmail SMTP
-const EMAIL_USER = 'YOUR_EMAIL@gmail.com';
+const EMAIL_USER = 'lakshyavalecha29@gmail.com';
 // Note: If using Gmail, this MUST be an "App Password", NOT your regular email password.
-const EMAIL_PASS = 'YOUR_EMAIL_APP_PASSWORD';
+const EMAIL_PASS = 'dynamiclakshya7';
 const TARGET_EMAIL = 'lakshyavalecha29@gmail.com';
 
 const client = new OAuth2Client(GOOGLE_CLIENT_ID);
@@ -92,3 +92,4 @@ app.listen(port, () => {
     console.log(`Please ensure GOOGLE_CLIENT_ID, EMAIL_USER & EMAIL_PASS are configured.`);
     console.log(`=========================================`);
 });
+
